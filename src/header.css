@@ -7,4 +7,29 @@
   top: 0;
   z-index: 10;
   border-bottom: 1px solid #ddd;
+  display: flex;
+  line-height: 2.3rem;
+  text-align: center;
+  background: #f8f8f8;
+}
+
+/* 左侧功能区 */
+.tt-header > .left {
+  flex-basis: 3rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+/* 中间标题部分 */
+.tt-header > .title {
+  flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 右侧功能区 */
+.tt-header > .right {
+  flex-basis: 3rem;
+  flex-shrink: 0;
 }
