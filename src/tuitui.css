@@ -20,3 +20,5 @@
 @import "./menu.css";
 /* 模态框组件的样式 */
 @import "./modal.css";
+/* 加载提示组件 */
+@import "./loading.css";
