@@ -37,3 +37,10 @@
 .tt-content .tt-panel-body.no-padding {
   padding: 0;
 }
+
+/* 标题导航 */
+.tt-content .tt-panel-title > .tt-panel-link {
+  float: right;
+  margin-right: 1rem;
+  color: #aaa;
+}
